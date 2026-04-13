@@ -17,10 +17,10 @@ enum FrameIndex {
 };
 
 const uint16_t* frames[] = {
-  Eye_Close_Mouth_Close,
-  Eye_Open_Mouth_Open,
-  Eye_Close_Mouth_Open,
-  Eye_Open_Mouth_Close
+  Eye_Close_Mouth_Close_565,
+  Eye_Open_Mouth_Open_565,
+  Eye_Close_Mouth_Open_565,
+  Eye_Open_Mouth_Close_565
 };
 
 void drawFrame(int index) {
